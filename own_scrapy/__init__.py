@@ -1,0 +1,1 @@
+from own_scrapy.start_scrapy import start_scrapy

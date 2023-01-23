@@ -22,7 +22,7 @@ def add_author():
 
 def add_quotes():
     Quotes.drop_collection()
-
+ 
     quotes = []
     with open(os.path.join('data', 'qoutes.json'), 'r') as f:
         res = f.read()
